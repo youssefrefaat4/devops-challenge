@@ -30,7 +30,6 @@ curl http://127.0.0.1:3000/calc?vf=200&vi=5&t=123
 - Only  `/calc` of `acceleration-calc` microservices can be available outside of the kubernetes cluster.
 - Run the application on a kubernetes cluster like Minikube or Docker for Mac.
 - Make sure the application is stable.
-- Please do not change a code in services.
 
 # Environment Setup
 - Microservices are written on Typescript and Node.js version 10.14.2
@@ -41,7 +40,8 @@ curl http://127.0.0.1:3000/calc?vf=200&vi=5&t=123
 - Run `yarn start` to run a service in production
 
 # Instructions
+- Fork this repo
 - The challenge is on!
-- **Send us an email with a link to repository when you finish the assesment.**
-- Please complete your working solution within 7 days of receiving this challenge.
+- Create a pull request
+- Please complete your working solution within 7 days of receiving this challenge, and be sure to notify us when it is ready for review.
 
